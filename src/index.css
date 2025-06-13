@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-primary text-light font-Lexend text-xl tracking-wide scroll-smooth;
+  }
+}
+
+@font-face {
+  font-family: 'RedHat';
+  src: url('./assets/fonts/redhat.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Geologica';
+  src: url('./assets/fonts/geologica.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/inter.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  src: url('./assets/fonts/lexend.ttf') format('truetype');
+}
